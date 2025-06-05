@@ -116,13 +116,13 @@ td {
 .flex-row:nth-child(2) .flex-cell:first-child {
     width: 585px; 
     height: 70px;
-    flex: 0 0 auto; /* Запрещаем растягивание */
-    padding: 5px; /* Опционально: можно уменьшить отступы внутри */
-    margin-right: 8px; /* Сохраняем отступ справа */
+    flex: 0 0 auto; 
+    padding: 5px; 
+    margin-right: 8px; 
 }
 
 .flex-row:last-child {
     width: 1195px;
-    flex: 0 0 70px; /* Фиксированная высота последней строки */
-    margin-top: -145px; /* Поднимаем на высоту строки */
+    flex: 0 0 70px; 
+    margin-top: -145px; 
 }
